@@ -38,7 +38,6 @@ let package = Package(
                 "MySQLProvider",
                 "FluentProvider",
                 "LeafProvider",
-                "RedisProvider",
                 "AuthProvider",
                 "Leaf",
                 "Node"

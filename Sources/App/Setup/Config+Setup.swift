@@ -1,7 +1,7 @@
 import FluentProvider
 import LeafProvider
 import MySQLProvider
-import RedisProvider
+//import RedisProvider
 import AuthProvider
 
 extension Config {
@@ -20,7 +20,7 @@ extension Config {
         try addProvider(LeafProvider.Provider.self)
         try addProvider(FluentProvider.Provider.self)
         try addProvider(MySQLProvider.Provider.self)
-        try addProvider(RedisProvider.Provider.self)
+//        try addProvider(RedisProvider.Provider.self)
         try addProvider(AuthProvider.Provider.self)
     }
     
