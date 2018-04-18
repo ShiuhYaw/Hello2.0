@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaf</title>
+</head>
+  <body>
+    <h1> My first leaf template! #(message)</h1>
+  </body>
+</html>

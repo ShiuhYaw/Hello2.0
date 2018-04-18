@@ -1,0 +1,10 @@
+{
+    "test-names": [
+        "joe",
+        "jane",
+        "sara"
+    ],
+    "mongo": {
+        "url": "www.customMongoURL.com"
+    }
+}

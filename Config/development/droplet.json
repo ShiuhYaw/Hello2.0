@@ -14,7 +14,7 @@
 
     "//": "The type of logger to use for recording logs, warnings, errors, etc.",
     "//": "console: Vapor's default logger sends logs directly to the chosen console.",
-    "log": "console",
+    "log": "all-caps",
 
     "//": "The type of hasher to use for hashing messages.",
     "//": "crypto: Vapor's default hasher powered by OpenSSL (configure in crypto.json)",
@@ -35,13 +35,17 @@
         "file",
         "sessions",
         "version",
-        "error"
-
+        "error",
+        "cors"
     ],
     "sessions": "memory",
     "//": "Choose which commands this application can run",
     "//": "prepare: Supplied by the Fluent provider. Prepares the database (configure in fluent.json)",
     "commands": [
-        "prepare"
-    ]
+        "prepare",
+        "my-command"
+    ],
+    "view": "leaf",
+    "driver": "fluent",
+    "cache": "redis"
 }

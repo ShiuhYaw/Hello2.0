@@ -36,7 +36,6 @@
         "sessions",
         "version",
         "error"
-
     ],
     "sessions": "memory",
     "//": "Choose which commands this application can run",
