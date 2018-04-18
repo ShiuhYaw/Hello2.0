@@ -46,5 +46,6 @@
                  "my-command"
                  ],
     "view": "leaf",
-    "driver": "fluent"
+    "driver": "fluent",
+    "cache": "memory"
 }

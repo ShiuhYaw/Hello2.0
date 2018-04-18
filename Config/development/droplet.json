@@ -47,5 +47,5 @@
     ],
     "view": "leaf",
     "driver": "fluent",
-    "cache": "redis"
+    "cache": "memory"
 }
